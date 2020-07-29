@@ -21,8 +21,8 @@ What you need:
 
 redirectURI=https://circuitcase.com/
 URLENCODE(redirectURI)=https%3A%2F%2Fcircuitcase.com%2F
-clientId=86ejsa8l6klz9d
-clientSecret=W0ojrW7R67sblI9d 
+clientId=XXXXXXX
+clientSecret=XXXXXXXX 
 
 
 ---
