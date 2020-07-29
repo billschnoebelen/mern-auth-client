@@ -19,8 +19,8 @@ What you need:
 
 redirectURI=https://circuitcase.com/
 URLENCODE(redirectURI)=https%3A%2F%2Fcircuitcase.com%2F
-clientId=86ejsa8l6klz9d
-clientSecret=W0ojrW7R67sblI9d 
+clientId=xxxx
+clientSecret=xxxx 
 
 
 ---
@@ -63,8 +63,8 @@ curl -ik -X POST https://www.linkedin.com/oauth/v2/accessToken \
 -d grant_type=authorization_code \
 -d code=AQS3WaIwNTDynh3rstd0Za6cWx87Wp6WrmV_cAGn-uxHlSdCFChJFaoTQW50TAptGfu15D8WJkIl5Nv9qMz5i7OeeMLLpNQb5vOJ-GdF0nsOGunCww2mamF-vEJypIQ28589NnpvBeuRsNeBCHyVNf05QtUlrXX5_UQY1BAGSTIBchWloVPywT89OI8_rA \
 -d redirect_uri=https%3A%2F%2Fcircuitcase.com%2F \
--d client_id=86ejsa8l6klz9d \
--d client_secret=W0ojrW7R67sblI9d
+-d client_id=xxxx \
+-d client_secret=xxxx
 
 {"access_token":"AQWZ0xD6OKV9wwgtWCPZMtiu8JWpyYiSEJEh6N8FhohUkWauvf5n0g8NrLnE3eErvHuNrNVcskyqWQmfwB7a_Al-6KWX
 VEBuNjyLzDQrCQT73HP2z8rkIl9xLmqugIb4nPXnoYVSt6kdpyYvfheN8TvrmCcuy-YrG9aM1M-r9HjIATl618w6MfC9zVAHaqTmP02kmO-Gd
