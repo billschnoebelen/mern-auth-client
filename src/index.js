@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { render } from "react-snapshot"; // <<< REACT SNAPSHOT
 import Routes from "./Routes";
 
-ReactDOM.render(
+render(
   <React.StrictMode>
     <Routes />
   </React.StrictMode>,
