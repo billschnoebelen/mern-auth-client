@@ -1,3 +1,5 @@
+Reference: https://www.youtube.com/watch?v=jYflkIo1R4A
+
 How to call a LinkedIn API
 and get a Linkedin OAuth Access Token
 ---
@@ -19,8 +21,13 @@ What you need:
 
 redirectURI=https://circuitcase.com/
 URLENCODE(redirectURI)=https%3A%2F%2Fcircuitcase.com%2F
+<<<<<<< HEAD
 clientId=xxxx
 clientSecret=xxxx 
+=======
+clientId=XXXXXXX
+clientSecret=XXXXXXXX 
+>>>>>>> 438ae7804f063eae2e0fb371fd099db30929d932
 
 
 ---
@@ -63,8 +70,13 @@ curl -ik -X POST https://www.linkedin.com/oauth/v2/accessToken \
 -d grant_type=authorization_code \
 -d code=AQS3WaIwNTDynh3rstd0Za6cWx87Wp6WrmV_cAGn-uxHlSdCFChJFaoTQW50TAptGfu15D8WJkIl5Nv9qMz5i7OeeMLLpNQb5vOJ-GdF0nsOGunCww2mamF-vEJypIQ28589NnpvBeuRsNeBCHyVNf05QtUlrXX5_UQY1BAGSTIBchWloVPywT89OI8_rA \
 -d redirect_uri=https%3A%2F%2Fcircuitcase.com%2F \
+<<<<<<< HEAD
 -d client_id=xxxx \
 -d client_secret=xxxx
+=======
+-d client_id=XXXXXXXX \
+-d client_secret=XXXXXXXX
+>>>>>>> 438ae7804f063eae2e0fb371fd099db30929d932
 
 {"access_token":"AQWZ0xD6OKV9wwgtWCPZMtiu8JWpyYiSEJEh6N8FhohUkWauvf5n0g8NrLnE3eErvHuNrNVcskyqWQmfwB7a_Al-6KWX
 VEBuNjyLzDQrCQT73HP2z8rkIl9xLmqugIb4nPXnoYVSt6kdpyYvfheN8TvrmCcuy-YrG9aM1M-r9HjIATl618w6MfC9zVAHaqTmP02kmO-Gd
